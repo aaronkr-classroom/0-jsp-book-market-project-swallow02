@@ -61,7 +61,7 @@ String tagline ="Welcome to Web Market!";
             		  }
               
               String CT = hour + ":" + min + ":" + sec + " " + am_pm;
-              out.println("현재 접속 시각:" + CT +"\n")
+              out.println("현재 접속 시각:" + CT +"\n");
             	  
               %>
               </div>
