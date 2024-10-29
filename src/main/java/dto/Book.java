@@ -12,7 +12,7 @@ private String category; // 분류
 private long unitsInStock; // 재고 개수
 private String releaseDate; // 출판일 (월/년)
 private String condition;  //신제품 or 구제품 or 리퍼브제품
-
+private String filename; //이미지 파일명
 //생성자
 
 public Book() {
@@ -109,8 +109,13 @@ public String getCondition() {
 public void setCondition(String condition) {
 	this.condition = condition;
 }
+public String getFilename() {
+	return filename;
+}
 
-
+public void setFilename(String filename) {
+	this.filename=filename;
+}
 
 
 
