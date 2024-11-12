@@ -3,6 +3,7 @@
     
 <%@ page import = "dto.Book" %>
 <%@ page import = "dao.BookRepository" %>
+<%@ page errorPage= "exceptionNoBookId.jsp" %>
 <jsp:useBean id="bookDAO" class="dao.BookRepository" scope="session"/>
 <!DOCTYPE html>
 <html>
