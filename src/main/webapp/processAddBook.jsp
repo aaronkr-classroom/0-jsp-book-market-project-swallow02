@@ -8,7 +8,7 @@
 request.setCharacterEncoding("UTF-8");
 
 String filename="";
-String realFolder="D:\webcode\0-directives-actions-swallow02\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\bookmarket";
+String realFolder="D:\eclipse-workspace2\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\0-directives-actions-swallow02";
 
 int maxSize = 5 * 1024 * 1024;
 String encType="utf-8";
