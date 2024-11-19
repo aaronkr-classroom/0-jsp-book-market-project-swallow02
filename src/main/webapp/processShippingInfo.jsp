@@ -23,5 +23,12 @@
   country.setMaxAge(24 * 60 * 60);
   addressName.setMaxAge(24 * 60 * 60);
   
- 
+  response.addCookie(cartId);
+  response.addCookie(name);
+  response.addCookie(shippingDate);
+  response.addCookie(country);
+  response.addCookie(zipCode);
+  response.addCookie(addressName);
+  
+  response.sendRedirect("orderConfirmation.jsp");
 %>

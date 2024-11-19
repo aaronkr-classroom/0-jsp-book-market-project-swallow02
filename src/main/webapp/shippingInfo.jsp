@@ -10,19 +10,19 @@
 <body>
 <div class="container py-4">
   <div class="container-fluid py-5">
-    <h1 calss="display-5 fw-bold">배송 정보</h1>
+    <h1 class="display-5 fw-bold">배송 정보</h1>
       <p class="col-md-8 fs-4">Shipping Info</p>
   </div>
 </div>
 
-<div calss="row align-items-md-stretch">
+<div class="row align-items-md-stretch">
   <form action=",/processShippingInfo.jsp" method="post">
     <input type="hidden" name="cartId" value="<%=request.
     getParameter("cartId")%>">
     <div class = "mb-3 row">
       <label class="col-sm-2">성명</label>
       <div class="col-sm-3">
-        <input type="text" naem="name" class="form-control">
+        <input type="text" name="name" class="form-control">
       </div>
     </div>
     <div class="mb-3 row">
@@ -44,7 +44,7 @@
         <input type="text" name="zipCode" class="form-control">
       </div>
     </div>
-    <div calss="mb-3 row">
+    <div class="mb-3 row">
       <label class="col-sm-2">주소</label>
       <div class="col-sm-5">
         <input type="text" name="addressName" class="form-control">
